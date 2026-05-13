@@ -9,7 +9,7 @@ pipeline {
 
         stage('Git Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/sakshimohinia/DeploymentDemo.git'
+                git branch: 'master', url: 'https://github.com/sakshimohinia/democidcd.git'
             }
         }
 
